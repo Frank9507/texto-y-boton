@@ -1,0 +1,34 @@
+<meta charset="utf-8">
+
+<input/>
+<button> Verificar si acertó con el secreto</button>
+
+<script>
+	var secreto = 5;
+	var input = document.querySelector("input");
+
+
+	function validar (){
+		if (parseInt(input.value)==secreto) {
+			alert ("Usted acertó"); 
+
+		}
+
+		else{
+			alert("usted erró");
+		}
+ 	}
+
+ 	var button = document.querySelector("button");
+
+ 	button.onclick = validar;
+
+
+
+
+
+
+
+
+
+</script>
